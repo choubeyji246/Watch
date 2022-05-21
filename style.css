@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ /* nav{
+     background-color: black;
+     color: white;
+ } */
+ h1{
+     color: white;
+     font-family: cursive;
+     font-style: italic;
+     display: inline;
+     margin:-0.9em;
+     padding: 1em;
+     font-size:4em;
+     display: flex;
+     justify-content: center;
+     animation:rotateInDownLeft;
+     animation-duration: 3s;
+ }
+ ul{
+     display: flex;
+     justify-content: space-between;
+     color: white;
+ }
+li{
+    margin-left: 10px;
+    height: 30px;
+    width: 80px;
+    font-size: 1.2em;
+}
+li:hover{
+    /* font-style: italic ; */
+    cursor: pointer;
+    border: 2px solid white;
+    background-color:black;
+}
+img{
+    margin-top: 5px;
+}
+h2{
+    color:white ;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    animation: slideInDown;
+    animation-duration: 2s;
+}
+header{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+footer{
+    background-color: black;
+    color:wheat;
+    height: 500px;
+}
+.trending_brands{
+    display: flex;
+    height: 300px;
+    position: relative;
+    left: 30px;
+    justify-content: space-between;
+}
+h3{
+    position: relative;
+    left: 50px;
+    font-size: 1.5em;
+    font-style: italic;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(69, 55, 55, 0.2);
+    transition: 0.3s;
+    width: 40%;
+    word-wrap: break-word;
+    width: 380px;
+    position: relative;
+    left: 30px;
+  }
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    word-wrap: break-word;
+    width: 380px;
+    position: relative;
+    left: 30px;
+}
+.card3{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    word-wrap: break-word;
+    width: 380px;
+    position: relative;
+    left: 30px;
+}
+.card-body{
+    padding: 5px 12px;
+}
+form{
+    display: flex;
+     flex-direction: column;
+     position: relative;
+     left: 350px;
+}
+input[type=text],select,textarea{
+    width: 50%;
+    padding: 12px;
+    border:5px solid aquamarine;
+}
+#submit{
+   border-radius: 7px;
+    background-color: rgb(96, 227, 96);
+    width: 5%;
+    height: 30px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(118, 123, 118);
+}
+button{
+    border-radius: 7px;
+    background-color: rgb(96, 227, 96);
+    width: 15%;
+    height: 35px;
+    cursor: pointer;
+    word-wrap: break-word;
+    position: relative;
+    left: 10px;
+}
+button:hover{
+    background-color: rgb(118, 123, 118);
+}
+
+
+      @media screen and (max-width:700px)  {
+        header{
+            background-image: url(bg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 776px;
+        }
+        footer{
+            background-color: black;
+            color:wheat;
+            height: 500px;
+            width: 776px;
+        }
+        .contact{
+            position: relative;
+            right: 200px;
+        }
+        .trending_brands{
+            display: flex;
+            height: 300px;
+            position: relative;
+            width: 776px;
+            /* left: 30px; */
+            /* justify-content: space-between; */
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+        }
+        /* .slideshow-container{
+            width: 800px;
+        }
+        .myslides{
+            width: 400px;
+        } */
+      }
